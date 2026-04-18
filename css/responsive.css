@@ -810,4 +810,10 @@ Xtra Small Screen - Small Mobile
   .copyright-text p {
       font-size: 14px;
   }
+  .faq-wrapper {
+        padding: 24px 8px;
+        border-radius: 24px;
+    }
+
+
 }

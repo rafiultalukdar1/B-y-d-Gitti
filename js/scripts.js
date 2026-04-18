@@ -101,7 +101,3 @@ window.addEventListener('scroll', function () {
     });
   });
 
-
-  // form number country code 
-
-  
