@@ -124,7 +124,7 @@ img {
     border-radius: 50%;
     background: var(--scroll-top-bg);
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     color: var(--scroll-top-color);
     position: fixed;
     right: 30px;
@@ -720,6 +720,7 @@ img {
 .discover-slider-btm button {
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .discover-slider-btm button:disabled {
@@ -972,20 +973,22 @@ img {
 }
 
 .accordion-icon {
-    font-size: 25px;
+    font-size: 28px;
     transition: transform 0.2s ease;
     font-weight: 400;
-    width: 56px;
+    width: 40px;
     height: 40px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 999px;
+    border-radius: 50%;
+    border: 1px solid #D1F5E0;
     background: #F7FBFA;
 }
 
 .accordion-content {
-    padding: 5px 0;
+    padding: 5px 12px 12px;
     display: none;
     color: #313056;
     font-family: var(--switzer-font);
