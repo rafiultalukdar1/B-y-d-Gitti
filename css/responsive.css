@@ -525,7 +525,7 @@ Small Screen - Mobile
   }
   .navbar-nav.nav-active {
       height: auto;
-      top: 98%;
+      top: 110%;
   }
   .hero-content h4 {
       font-size: 40px;
